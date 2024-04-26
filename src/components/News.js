@@ -131,6 +131,9 @@ export class News extends Component {
                 <div className="col-md-4">
                     <NewsItem title="myTitle" description="mydesc" imageUrl="https://i.abcnewsfe.com/a/92f52362-637c-4fae-aca4-e105b77b9779/Missiles-1-ap-er-240424_1713997798737_hpMain_16x9.jpg?w=1600"/>
                 </div>
+                <div className="col-md-4">
+                    <NewsItem title="myTitle" description="mydesc" imageUrl="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240424-tupac-shakur-drake-split-3x2-vl-441p-186454.jpg"/>
+                </div>
             </div>
         </div>
       </div>
