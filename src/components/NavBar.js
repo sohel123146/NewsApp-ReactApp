@@ -3,34 +3,6 @@ import { Link } from "react-router-dom";
 
 const NavBar = () =>
 {
-  // state = {
-  //   mode : 'light',
-  //   text : 'Enable dark mode',
-  //   textColor : '#000000',
-  // }
-
-  // togglemode = () =>
-  // {
-  //   if(this.state.mode === 'light')
-  //   {
-  //     this.setState({
-  //       mode : 'dark',
-  //       text : 'Enable light mode',
-  //       textColor : '#ffffff',
-  //     })
-  //     document.body.style.backgroundColor = '#282828';
-      
-  //   }
-  //   else
-  //   {
-  //    this.setState({
-  //     mode : 'light',
-  //     text : 'Enable dark mode',
-  //     textColor : '#000000',
-  //    })
-  //    document.body.style.backgroundColor = 'white';
-  //   }
-  // }
     return (
       <div>
         <nav className={`navbar fixed-top navbar-expand-lg navbar-dark bg-dark`}>
@@ -52,10 +24,6 @@ const NavBar = () =>
                         <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
                     </ul>
-                    {/* <div className={`form-check form-switch text-${this.state.mode === 'light'?'dark':'light'}`}>
-                        <input className="form-check-input" type="checkbox" role="switch" onClick={this.togglemode} id="flexSwitchCheckDefault"/>
-                        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{this.state.text}</label>
-                    </div> */}
                 </div>
             </div>
         </nav>
